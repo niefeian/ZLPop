@@ -223,8 +223,8 @@ public extension PopupController {
         
     }
     
-    @objc func testBttom(){
-        self.customize([.layout(.bottom) , .animation(.none), .scrollable(false), .backgroundStyle(.blackFilter(alpha: 0.3)) ])
+    @objc func setLayoutUI(_ layout: PopupLayout, animation: PopupAnimation)  -> PopupController{
+      return self.customize([.layout(layout) , .animation(animation), .scrollable(false), .backgroundStyle(.blackFilter(alpha: 0.3)) ])
     }
     
     @objc func didShowHandler(_ handler: @escaping (PopupController) -> Void) -> PopupController {
