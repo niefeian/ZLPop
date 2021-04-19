@@ -2,7 +2,7 @@
 //  PopupController.swift
 //  PopupController
 //
-//  Created by 佐藤 大輔 on 2/4/16.
+//  Created by 慢慢 on 2/4/16.
 //  Copyright © 2016 Daisuke Sato. All rights reserved.
 //
 
