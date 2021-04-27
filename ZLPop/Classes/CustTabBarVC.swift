@@ -22,7 +22,12 @@ import Foundation
     
     open override func viewDidLoad() {
         super.viewDidLoad()
-//        self.tabBar.
+        
+        var attr = NSDictionary(object: UIColor.red, forKey: NSAttributedString.Key.foregroundColor as NSCopying)
+        UITabBarItem.appearance().setTitleTextAttributes(attr as? [NSAttributedString.Key : Any], for: UIControl.State.selected)
+        attr = NSDictionary(object: UIColor.lightGray, forKey: NSAttributedString.Key.foregroundColor as NSCopying)
+        UITabBarItem.appearance().setTitleTextAttributes(attr as? [NSAttributedString.Key : Any], for: UIControl.State.normal)
+        
     }
     
     func initTabBarState() {
