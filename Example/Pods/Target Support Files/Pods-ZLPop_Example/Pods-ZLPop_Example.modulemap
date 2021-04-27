@@ -1,0 +1,6 @@
+framework module Pods_ZLPop_Example {
+  umbrella header "Pods-ZLPop_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

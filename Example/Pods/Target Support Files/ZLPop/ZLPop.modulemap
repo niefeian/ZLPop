@@ -1,0 +1,6 @@
+framework module ZLPop {
+  umbrella header "ZLPop-umbrella.h"
+
+  export *
+  module * { export * }
+}
